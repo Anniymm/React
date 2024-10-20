@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: rgba(13, 25, 44, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-div {
+  width: 300px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:rgba(21, 38, 63, 1); /* Background color divstvis */
+  padding: 20px; /*fotos(anu sgintavsis )) dashoreba borderidan*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.my-image {
+  width: 302px;
+  height: 302px;
+  top: 24px;
+  left: 20px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.header{
+  font-family: Outfit;
+  font-size: 22px;
+  color:rgba(255, 255, 255, 1);
+  font-weight: 600;
+  line-height: 27.72px;
+  text-align: left;
+
+}
+.header:hover {
+  color: rgba(0, 255, 248, 1);
+}
+
+.paragraph{
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(139, 172, 217, 1);
+
+}
+.split-text {
+  display: flex;  
+  justify-content: space-between;  
+  font-size: 16px;  
+  width: 100%;  
+  padding: 20px 0; 
+}
+
+.split-text {
+  display: flex;  
+  justify-content: space-between;  
+  font-size: 16px;  
+  width: 100%;  
+  padding: 20px 0; 
+}
+
+.left-text-container, .right-text-container {
+  display: flex;
+  align-items: center;  /* Vertikaluri centri */
+  gap: 10px;  /*spacingstvis*/
+}
+
+.left-text {
+  color: rgba(0, 255, 248, 1);
+}
+
+.right-text {
+  color: rgba(139, 172, 217, 1);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+  
+.divider{
+  border: none;
+  height: 1px;
+  background-color: gray;
+  margin: 7px;
+}
+
+.avatari{
+  width: 30px;
+  margin-right: 250px;
+  border: 2px solid white;     
+  border-radius: 50%;          /* icon ro wre gaxados */
+}
+.ucnauri2{
+  display: flex;  
+  justify-content: space-between;  
+  font-size: 16px;  
+  padding: 0px 55px ; /* ?? */
+}
+
+.span2:hover{
+  color: rgba(0, 255, 248, 1);
+}
